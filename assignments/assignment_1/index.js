@@ -19,11 +19,14 @@ function getNameFromReadLine() {
     });
 
     rl.question("Please Enter Your Name? ", (answer) =>{
-        return answer
+        return answer;
+        
     });
 
-}
+    rl.close();
 
+    
+}
 
 module.exports = {
     getNameFromCommandLine,
