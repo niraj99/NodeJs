@@ -1,0 +1,24 @@
+.user-container{
+    background-color: aqua;
+    min-height: 100px;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.center1{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.isPromoted-null{
+    color: yellow;
+}
+
+.isPromoted-true{
+    color: green;
+}
+
+.isPromoted-false{
+    color: red;
+}
